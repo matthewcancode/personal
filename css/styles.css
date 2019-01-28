@@ -1,8 +1,27 @@
 body {
   color: #40514E;
+  font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-color: #eaf6f6;
+  border-style: dotted none none;
+  border-width: 6px;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 /* Top Container */
@@ -12,29 +31,32 @@ body {
   padding-top: 100px;
 }
 
+/* Intro */
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 40px;
 }
 
-h1 {
+.main-title {
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
   font-size: 4rem;
   margin: 50px auto 0 auto;
 }
 
-p {
-  line-height: 2;
-}
-
-h2 {
+.sub-title {
   color: #66BFBF;
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   padding-bottom: 10px;
+  line-height: 2;
 }
 
 .bottom-cloud {
@@ -52,25 +74,31 @@ h2 {
   margin: 100px 0;
 }
 
+/* Profile */
 .icon {
   border-radius: 50%;
   height: 12.5%;
   width: 12.5%;
 }
 
-.intro {
-  margin: auto;
-  width: 30%;
+.section-title {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
-hr {
-  border-color: #eaf6f6;
-  border-style: dotted none none;
-  border-width: 6px;
-  margin: 100px auto;
-  width: 4%;
+.text-content {
+  line-height: 2;
 }
 
+.sub-section {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Skills */
 .skill-row {
   margin: 40px auto 100px auto;
   text-align: left;
@@ -84,11 +112,6 @@ hr {
   width: 25%;
 }
 
-h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-
 .books {
   border-radius: 50%;
   float: right;
@@ -97,6 +120,7 @@ h3 {
   width: 25%;
 }
 
+/* Contact */
 .contact-message {
   margin: 40px auto 60px;
   width: 40%;
@@ -129,25 +153,16 @@ h3 {
   text-decoration: none;
 }
 
-a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #eaf6f6;
-}
-
 /* Bottom Container */
 .bottom-container {
   background-color: #66bfbf;
   padding: 50px 0 20px;
 }
 
+/* Footer */
 .copyright {
   color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0 10px;
+  line-height: 2;
 }
